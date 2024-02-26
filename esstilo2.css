@@ -1,0 +1,25 @@
+body{
+    background-color: #212121;
+}
+
+h1{
+    color: #aaaaaa;
+}
+
+h2{
+    color: darkorange;
+}
+
+div{
+    border: solid 1px #aaaaaa;
+    width: 400px;
+    height: 450px;
+}
+
+h4{
+    color: darkkhaki;
+}
+
+img{
+    width: 100%;   
+}
