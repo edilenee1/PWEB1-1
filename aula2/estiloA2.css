@@ -1,0 +1,81 @@
+.barra-superior{
+    border-bottom:solid 1px #afaeae; /* solid indica que a linha será continua */
+    background-color: #ffffff;
+
+    display: flex; /* Sempre deve ser indicado no elemento pai */
+    flex-direction: row; /* Os elementos filhos ficaram na horisontal*/
+    justify-content: space-between; /* distribui os elementos filhos iniciando na borda do inícia e terminado na borda do fim, mantendo um espaçamento igual entre os elementos */
+}
+
+.barra-de-busca{
+    background-color: #ffffff;
+    width: fit-content;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* alinha os filhos no eixo vertical, */
+}
+
+.barra-de-acoes{
+    background-color: #ffffff;
+    width: fit-content;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.bt-primario{
+    background-color: #777;
+    color: white;
+    border: none; /* sem borda */
+    border-radius: 20px; /* arredonda as quinas */
+    padding: 8px;
+}
+
+.bt-primario:hover{
+    background-color: #474545;
+}
+
+.bt-secundario{
+    background-color: #ffffff;
+    color: #777777;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.bt-secundario:hover{
+    color: black;
+}
+
+.avatar{
+    /* gambiarra para este elemento se tornar um círculo*/
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    /* fim da gambiarra */
+    border: solid 1px #afaeae;
+}
+
+.avatar:hover{
+    filter: brightness(50%);
+}
+
+img{
+    
+    height: 70px;
+    border: solid 1px #afaeae;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+
+.barra-de-pesquisa{
+    background-color: #dbd8d8;
+    border: none;
+    border-radius: 40px;
+    padding: 8px;
+}
