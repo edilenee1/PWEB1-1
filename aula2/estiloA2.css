@@ -1,3 +1,5 @@
+/* Barra superior ================================================================= */
+
 .barra-superior{
     border-bottom:solid 1px #afaeae; /* solid indica que a linha será continua */
     background-color: #ffffff;
@@ -66,7 +68,7 @@
 img{
     
     height: 70px;
-    border: solid 1px #afaeae;
+    border: none;
 
     display: flex;
     flex-direction: row;
@@ -78,4 +80,78 @@ img{
     border: none;
     border-radius: 40px;
     padding: 8px;
+}
+
+/* Conteúdo ================================================================= */
+
+.conteudo{
+    margin-top: 80px; /* Margem superior */
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px; /* Largula */
+    border: solid 1px brown;
+
+}
+
+.titulo-principal{
+    font-family: sans-serif; /* tipo ou família da fonte */
+    font-weight: 900; /* espessura da linha da letra */
+    font-size: 40px; /* tamanho da fonte */
+}
+
+.info{
+    font-family: sans-serif;
+
+}
+
+.linha1{
+    font-size: 17px;
+}
+
+.linha2{
+    font-size: 15px;
+}
+
+.claro{
+    color: #777777;
+}
+
+.escuro{
+    color: #222222;
+}
+
+.acoes-conteudo{
+    border-top: solid 1px #afaeae;
+    border-bottom: solid 1px #afaeae;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.interacoes{
+    display: flex;
+    flex-direction: row;
+
+    gap: 30px;
+}
+
+.compartilhamento{
+    display: flex;
+    flex-direction: row;
+
+    gap: 25px;
+}
+
+.palmas{
+    
+}
+
+.comentario{
+
+}
+
+.img-acoes-conteudo{
+    height: 35px;
+    border: none;
 }
